@@ -26,7 +26,10 @@ void Graph::addEdge(int v, int w)
   
 void Graph::DFS(int v)
 {
-   
+     // Mark the current node as visited and print it
+  //so the node will start from source and then traverse all the way
+    visited[v] = true;
+    cout << v << " ";
   
     // Recur for all the vertices adjacent
     // to this vertex
