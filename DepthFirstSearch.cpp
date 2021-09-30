@@ -1,4 +1,4 @@
-/ C++ program to print DFS traversal from
+// C++ program to print DFS traversal from
 // a given vertex in a  given graph
 #include <bits/stdc++.h>
 using namespace std;
@@ -9,7 +9,7 @@ class Graph
 {
 public:
     map<int, bool> visited;
-    map<int, list<int>> adj;
+    map<int, vector<int>> adj;
   
     // function to add an edge to graph
     void addEdge(int v, int w);
